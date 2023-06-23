@@ -44,7 +44,7 @@ const SearchList = () => {
     }
   }, [searchItem]);
 
-  const input = <Input className="search" placeholder="Type to search...or die" type="text" onChange={onSearchInput} />;
+  const input = <Input className="search" placeholder="Type to search..." type="text" onChange={onSearchInput} />;
 
   const getMovieRequest = async (search) => {
     console.log(search);
