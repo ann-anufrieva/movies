@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  background: #ffffff;
+  width: 1100px;
+  }
+  
+  .movie-list {
+    display: block;
+    width: 451px;
+    height: 279px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 36px;
+    grid-gap: 36px;
+  }
